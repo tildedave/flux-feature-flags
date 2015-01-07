@@ -5,7 +5,9 @@ Object.assign = require('object-assign');
 var ExperimentsStore = Object.assign({}, BaseStore, {
 
     experiments: {
-        'primary-button': false
+        'warning-primary-button': false,
+        'different-primary-button-text': false,
+        'extra-text': false
     },
 
     isActive: function(experimentName) {

@@ -24,8 +24,14 @@ module.exports = React.createClass({
     },
 
     checkbox: function(experiment) {
+        var style = {
+            // awful but w/e
+            display: 'inline !important',
+            'paddingLeft': '10px'
+        };
+
         return (
-            <span className="checkbox">
+            <span className="checkbox" style={style} key={experiment}>
                <label>
                    <input type="checkbox"
                           name={experiment}
