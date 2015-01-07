@@ -1,0 +1,24 @@
+{
+  "name": "flux-feature-flags",
+  "version": "0.0.1",
+  "description": "Feature Flag implementation with React and Flux",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flux": "^2.0.1",
+    "object-assign": "^2.0.0",
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "express": "^4.10.7",
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.4.15"
+  }
+}
